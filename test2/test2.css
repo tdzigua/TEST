@@ -1,0 +1,13 @@
+.header {
+    font-weight: bold;
+}
+
+.text::before {
+    content:'Начало:';
+    color: red;
+}
+
+.text::after {
+    content:':Конец!';
+    color: green;
+}
